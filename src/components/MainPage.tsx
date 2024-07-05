@@ -14,7 +14,10 @@ export function MainPage() {
   }
 
   const scrollToGenerator = () => {
-    document.getElementById("try-document-generator").scrollIntoView({ behavior: "smooth" })
+    const element = document.getElementById("try-document-generator");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
   };
   
   const [userInput, setUserInput] = useState("");
