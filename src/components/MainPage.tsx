@@ -22,8 +22,8 @@ export function MainPage() {
   
   const [userInput, setUserInput] = useState("");
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
-  const [pdfUrl, setPdfUrl] = useState(null);
+  const [error, setError] = useState<string | null>(null);
+  const [pdfUrl, setPdfUrl] = useState<string | null>(null);
 
   const handleGenerate = async () => {
     setLoading(true);
