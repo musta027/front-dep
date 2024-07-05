@@ -9,7 +9,7 @@ import axios from "axios"
 
 export function MainPage() {
   const [language, setLanguage] = useState("en")
-  const handleLanguageChange = (lang) => {
+  const handleLanguageChange = (lang: string) => {
     setLanguage(lang)
   }
 
@@ -193,7 +193,7 @@ export function MainPage() {
                       ? "Automatically fill in document data."
                       : language === "ru"
                       ? "\u0410\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0438 \u0437\u0430\u043F\u043E\u043B\u043D\u044F\u0439\u0442\u0435 \u0434\u0430\u043D\u043D\u044B\u0435 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0430."
-                      : "\u049A\u04B1\u0436\u0430\u0442 \u0434\u0435\u0440\u0435\u043A\u0442\u0435\u0440\u0456\u043D \u0430\u0432\u0442\u043E\u043C\u0430\u0442\u0442\u044B \u0442\u04AF\u0440\u0434\u0435 \u0442\u043E\u043B\u0442\u044B\u0440\u044B\u04A3\u044B\u0437."}
+                      : "\u049A\u04B1\u0436\u0430\u0442 \u0434\u0435\u0440\u0435\u043A\u0442\u0435\u0440\u0456\u043D \u0430\u0432\u0442\u043E\u043C\u0430\u0442\u0442\u044B \u0442\u043E\u043B\u0442\u044B\u0440\u044B\u04A3\u044B\u0437."}
                   </p>
                 </div>
               </div>
