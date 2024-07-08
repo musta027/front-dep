@@ -300,7 +300,7 @@ export function MainPage() {
   )
 }
 
-function ChevronDownIcon(props) {
+function ChevronDownIcon(props: any) {
   return (
     <svg
       {...props}
@@ -320,7 +320,7 @@ function ChevronDownIcon(props) {
 }
 
 
-function FileIcon(props) {
+function FileIcon(props: any) {
   return (
     <svg
       {...props}
@@ -341,7 +341,7 @@ function FileIcon(props) {
 }
 
 
-function FolderInputIcon(props) {
+function FolderInputIcon(props: any) {
   return (
     <svg
       {...props}
@@ -363,7 +363,7 @@ function FolderInputIcon(props) {
 }
 
 
-function ImportIcon(props) {
+function ImportIcon(props: any) {
   return (
     <svg
       {...props}
@@ -385,7 +385,7 @@ function ImportIcon(props) {
 }
 
 
-function LayoutTemplateIcon(props) {
+function LayoutTemplateIcon(props: any) {
   return (
     <svg
       {...props}
